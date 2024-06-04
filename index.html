@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/NoCompUpdated_itracker.loader.js"></script>
+    <script src="Build/NoCompUpdated_itracker_vertJar.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/NoCompUpdated_itracker.data",
-                    frameworkUrl: "Build/NoCompUpdated_itracker.framework.js",
-                    codeUrl: "Build/NoCompUpdated_itracker.wasm",
+                    dataUrl: "Build/NoCompUpdated_itracker_vertJar.data",
+                    frameworkUrl: "Build/NoCompUpdated_itracker_vertJar.framework.js",
+                    codeUrl: "Build/NoCompUpdated_itracker_vertJar.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "Web AR",
